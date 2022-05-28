@@ -1,0 +1,30 @@
+wap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Session
+Session.vim
+
+# Temporary
+*~
+# Auto-generated tag files
+tags
+# Persistent undo
+[._]*.un~
+
+
+# 屏蔽当前目录下所有文件
+# 排除.gitignore .vim和.vimrc
+.*
+!.gitignore
+!.vim
+!.vimrc
+*/*
+!.vim/*
+.vim/.netrwhist
+
+# .git
+.vim/**/.git/
